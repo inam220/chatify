@@ -9,89 +9,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXFrameworksBuildPhase section */
 
-/* Begin PBXGroup section */
-		33BA886A226E78AF003329D5 /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				33E5194F232828860026EE4D /* AppInfo.xcconfig */,
-				9740EEB21CF90195004384FC /* Debug.xcconfig */,
-				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
-				333000ED22D3DE5D00554162 /* Warnings.xcconfig */,
-			);
-			path = Configs;
-			sourceTree = "<group>";
-		};
-		33CC10E42044A3C60003C045 = {
-			isa = PBXGroup;
-			children = (
-				33FAB671232836740065AC1E /* Runner */,
-				33CEB47122A05771004F2AC0 /* Flutter */,
-				33CC10EE2044A3C60003C045 /* Products */,
-				D73912EC22F37F3D000D13A0 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		33CC10EE2044A3C60003C045 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				33CC10ED2044A3C60003C045 /* chat_app.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		33CC11242044D66E0003C045 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				33CC10F22044A3C60003C045 /* Assets.xcassets */,
-				33CC10F42044A3C60003C045 /* MainMenu.xib */,
-				33CC10F72044A3C60003C045 /* Info.plist */,
-			);
-			name = Resources;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		33CEB47122A05771004F2AC0 /* Flutter */ = {
-			isa = PBXGroup;
-			children = (
-				335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */,
-				33CEB47222A05771004F2AC0 /* Flutter-Debug.xcconfig */,
-				33CEB47422A05771004F2AC0 /* Flutter-Release.xcconfig */,
-				33CEB47722A0578A004F2AC0 /* Flutter-Generated.xcconfig */,
-			);
-			path = Flutter;
-			sourceTree = "<group>";
-		};
-		33FAB67123283674006 /* Resources */,
-				33BA886A226E78AF003329D5 /* Configs */,
-			);
-			path = Runner;
-			sourceTree = "<group>";
-		};
-		D73912EC22F37F3D000D13A0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-	 (
-				33CC11202044C79F0003C045 /* PBXTargetDependency */,
-			);
-			name = Runner;
-			productName = Runner;
-			productReference = 33CC10ED2044A3C60003C045 /* chat_app.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		33CC10E52044A3C60003C045 /* Project object */ = {
-			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 1300;
@@ -219,19 +137,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+		PE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -381,18 +287,7 @@
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		33CC10FD2044A3C60003C045 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
-			buildSettings = {
+				
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Release.entitlements;
@@ -434,12 +329,6 @@
 				33CC10FA2044A3C60003C045 /* Release */,
 				338D0CE9231458BD00FA5F75 /* Profile */,
 			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		33CC10FB2044A3C60003C045 /* Build configuration list for PBXNativeTarget "Runner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
 				33CC10FC2044A3C60003C045 /* Debug */,
 				33CC10FD2044A3C60003C045 /* Release */,
 				338D0CEA231458BD00FA5F75 /* Profile */,
