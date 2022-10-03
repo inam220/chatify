@@ -9,9 +9,59 @@ class Messages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    }
+        final chatDocs = snapshot.data?.docs;
+        print(chatDocs?.length);
+        return ListView.builder(
+          reverse: true,
+          itemCount: chatDocs?.length ?? 0,
+          itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
+              userName: chatDocs?[index]['userName'],
+              userImage: chatDocs?[index]['userImage'],
+            );
+          },
+        );
+  }
+        final chatDocs = snapshot.data?.docs;
+        print(chatDocs?.length);
+        return ListView.builder(
+          reverse: true,
+          itemCount: chatDocs?.length ?? 0,
+          itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
+              userName: chatDocs?[index]['userName'],
+              userImage: chatDocs?[index]['userImage'],
+            );
+          },
+        );}
+        final chatDocs = snapshot.data?.docs;
+        print(chatDocs?.length);
+        return ListView.builder(
+          reverse: true,
+          itemCount: chatDocs?.length ?? 0,
+          itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
+              userName: chatDocs?[index]['userName'],
+              userImage: chatDocs?[index]['userImage'],
+            );
+          },
+        );
     return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
       stream: FirebaseFirestore.instance
-          .collection("chats")
+           
           .orderBy('createdAt', descending: true)
           .snapshots(),
       builder: (context, snapshot) {
@@ -31,11 +81,23 @@ class Messages extends StatelessWidget {
               isMe: chatDocs?[index]['userId'] ==
                   FirebaseAuth.instance.currentUser?.uid,
               key: ValueKey(chatDocs?[index].id),
+                itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
               userName: chatDocs?[index]['userName'],
               userImage: chatDocs?[index]['userImage'],
             );
           },
         );
+              itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
       },
     );
   }

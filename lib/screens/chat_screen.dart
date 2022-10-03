@@ -20,6 +20,41 @@ class ChatScreen extends StatelessWidget {
               color: Colors.white,
             ),
             items: [
+              
+        ],
+      ),
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: Messages(),
+            ),
+            NewMessage(),
+          ],
+        ),
+        
+        ],
+      ),
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: Messages(),
+            ),
+            NewMessage(),
+          ],
+        ),
+        ],
+      ),
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: Messages(),
+            ),
+            NewMessage(),
+          ],
+        ),
               DropdownMenuItem(
                 value: "logout",
                 child: Container(
@@ -41,48 +76,7 @@ class ChatScreen extends StatelessWidget {
               }
             },
           )
-        ],
-      ), items: [
-              DropdownMenuItem(
-                value: "logout",
-                child: Container(
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.exit_to_app,
-                      ),
-                      SizedBox(width: 5),
-                      Text("Logout"),
-                    ],
-                  ),
-                ),
-              )
-            ],
-       items: [
-              DropdownMenuItem(
-                value: "logout",
-                child: Container(
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.exit_to_app,
-                      ),
-                      SizedBox(width: 5),
-                      Text("Logout"),
-                    ],
-                  ),
-                ),
-              )
-            ],
-      body: Container(
-        child: Column(
-          children: [
-            Expanded(
-              child: Messages(),
-            ),
-            NewMessage(),
-          ],
-        ),
+
       ),
     );
   }
