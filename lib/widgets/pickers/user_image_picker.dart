@@ -25,6 +25,21 @@ class _UserImagePickerState extends State<UserImagePicker> {
     setState(() {
       _pickedImage = File(pickedImage?.path ?? "");
     });
+    widget.pickedImage(_pickedImage!);    setState(() {
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);    setState(() {
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);    setState(() {
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);    setState(() {
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);    setState(() {
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
     widget.pickedImage(_pickedImage!);
   }
 
