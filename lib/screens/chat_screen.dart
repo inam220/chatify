@@ -42,7 +42,38 @@ class ChatScreen extends StatelessWidget {
             },
           )
         ],
-      ),
+      ), items: [
+              DropdownMenuItem(
+                value: "logout",
+                child: Container(
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.exit_to_app,
+                      ),
+                      SizedBox(width: 5),
+                      Text("Logout"),
+                    ],
+                  ),
+                ),
+              )
+            ],
+       items: [
+              DropdownMenuItem(
+                value: "logout",
+                child: Container(
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.exit_to_app,
+                      ),
+                      SizedBox(width: 5),
+                      Text("Logout"),
+                    ],
+                  ),
+                ),
+              )
+            ],
       body: Container(
         child: Column(
           children: [
