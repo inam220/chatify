@@ -11,7 +11,7 @@ class Messages extends StatelessWidget {
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
       stream: FirebaseFirestore.instance
-          .collection("chats")
+           
           .orderBy('createdAt', descending: true)
           .snapshots(),
       builder: (context, snapshot) {
@@ -31,11 +31,23 @@ class Messages extends StatelessWidget {
               isMe: chatDocs?[index]['userId'] ==
                   FirebaseAuth.instance.currentUser?.uid,
               key: ValueKey(chatDocs?[index].id),
+                itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
               userName: chatDocs?[index]['userName'],
               userImage: chatDocs?[index]['userImage'],
             );
           },
         );
+              itemBuilder: (context, index) {
+            return MessageBubble(
+              message: chatDocs?[index]['text'],
+              isMe: chatDocs?[index]['userId'] ==
+                  FirebaseAuth.instance.currentUser?.uid,
+              key: ValueKey(chatDocs?[index].id),
       },
     );
   }
