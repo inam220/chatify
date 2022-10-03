@@ -20,6 +20,41 @@ class ChatScreen extends StatelessWidget {
               color: Colors.white,
             ),
             items: [
+              
+        ],
+      ),
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: Messages(),
+            ),
+            NewMessage(),
+          ],
+        ),
+        
+        ],
+      ),
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: Messages(),
+            ),
+            NewMessage(),
+          ],
+        ),
+        ],
+      ),
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: Messages(),
+            ),
+            NewMessage(),
+          ],
+        ),
               DropdownMenuItem(
                 value: "logout",
                 child: Container(
@@ -41,17 +76,6 @@ class ChatScreen extends StatelessWidget {
               }
             },
           )
-        ],
-      ),
-      body: Container(
-        child: Column(
-          children: [
-            Expanded(
-              child: Messages(),
-            ),
-            NewMessage(),
-          ],
-        ),
       ),
     );
   }
