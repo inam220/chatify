@@ -31,6 +31,55 @@ class UserImagePicker extends StatefulWidget {
   }
 
   @override
+   Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override Text("Add 
+          ckedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       children: [
