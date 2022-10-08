@@ -57,7 +57,161 @@ class UserImagePicker extends StatefulWidget {
 
   @override Text("Add 
           ckedImage = File(pickedImage?.path ?? "");
-    });
+    });IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )
     widget.pickedImage(_pickedImage!);
   }
 
