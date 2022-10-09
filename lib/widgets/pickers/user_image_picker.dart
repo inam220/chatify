@@ -11,6 +11,139 @@ class UserImagePicker extends StatefulWidget {
     });
     widget.pickedImage(_pickedImage!);
   }
+  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }  final Function(File image) pickedImage;
+  const UserImagePicker({Key? key, required this.pickedImage})
+      : sup
+      _pickedImage = File(pickedImage?.path ?? "");
+    });
+    widget.pickedImage(_pickedImage!);
+  }
 
   @override
   Widget build(BuildContext context) {
