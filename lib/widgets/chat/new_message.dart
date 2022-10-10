@@ -36,12 +36,47 @@ class _NewMessageState extends State<NewMessage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.only(top: 10),
-      padding: EdgeInsets.all(8),
-      child: Row(
-        children: [
-          Expanded(
+   eadline3: base.headline3?.copyWith(fontFamily: fontName),
+      headline4: base.headline4?.copyWith(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWit
+         canvasColor: Colors.white,
+      th(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWitth(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWitth(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWitth(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWitth(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWitth(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fontName),
+      button: base.button?.copyWith(fontFamily: fontName),
+      caption: base.caption?.copyWith(fontFamily: fontName),
+      bodyText1: base.bodyText1?.copyWitth(fontFamily: fontName),
+      headline5: base.headline5?.copyWith(fontFamily: fontName),
+      headline6: base.headline6?.copyWith(fontFamily: fo
             child: TextField(
               controller: _messageController,
               decoration: InputDecoration(labelText: "Type your message....."),
@@ -55,6 +90,7 @@ class _NewMessageState extends State<NewMessage> {
           IconButton(
             color: Theme.of(context).colorScheme.primary,
             onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            e.trim().isEmpty ? null : _sendMessgae,e.trim().isEmpty ? null : _sendMessgae,
             icon: Icon(
               Icons.send,
             ),
